@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+   {% for x in obj %}
+   <h1>{{x.name}}</h1>
+   <h2>{{x.designation}}</h2>
+   <p>Salary : <strong>{{x.salary}}</strong></p>
+   <p>Date of joining : <strong>{{x.doj}}</strong></p>
+    <hr>
+   {% endfor %}
+{% endblock %}

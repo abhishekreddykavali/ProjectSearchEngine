@@ -1,0 +1,31 @@
+<html>
+	<head>
+
+	</head>
+
+	<body>
+	{% if user.is_authenticated %}
+	
+		<h4>Hii...({{user.username}})</h4>
+		<div align=right style='padding:20px'>
+			<h2><a href="{% url 'logout' %}">logout</a><h2>
+			<br>
+			<form method='POST' > {% csrf_token %}
+			<input type='text' name='query'>
+			<input type='submit' value='search'>
+			</form>
+		</div>
+
+	{% else %}
+	
+        <div class="col-xl-2">
+            <h4><a href="{% url 'register' %}"> SIGNUP</a></h4>
+        </div>
+		
+	{% endif %}
+	
+	{% block content %}
+		
+	{% endblock %}
+	</body>
+</html>

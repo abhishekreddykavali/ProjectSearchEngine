@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+        <div class="content-section" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            <div id="p">
+                <form method="POST">{% csrf_token %}
+                    <label>UserName &nbsp; </label><input type="text" name="username" placeholder="UserName" required>
+					<br> <br>
+                    <label>password &nbsp; </label><input type="password" name="password" placeholder="password" required><br>
+                    <div class="form-group">
+                        <center>
+							<button class="btn btn-outline-info" type="submit">Login</button>
+							<button class="btn btn-outline-info" onclick="window.location.href = '{% url 'register' %}'">SignUp</button>
+						</center>
+
+                    </div>
+                </form>
+            </div>
+            </div>
+            
+{% endblock%}
