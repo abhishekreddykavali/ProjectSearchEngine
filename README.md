@@ -19,10 +19,12 @@ This project is a web application developed using Django, REST framework, HTML, 
 
 ## Technologies Used
 
-- Django: Backend framework for handling server-side logic and database operations.
-- Django REST framework: Used for creating RESTful APIs for employee management.
-- HTML & CSS: Frontend technologies for designing and styling web pages.
-- SQLite (or your preferred database): Database for storing employee information.
+- **Django:** Backend framework for handling server-side logic and database operations.
+- **Django REST framework:** Used for creating RESTful APIs for employee management.
+- **HTML & CSS:** Frontend technologies for designing and styling web pages.
+- **SQLite:** Database for storing employee information.
+- **Postman:** API development and testing tool for interacting with REST APIs.
+- **Visual Studio Code:** Integrated Development Environment (IDE) for code editing.
 
 ## Setup Instructions
 
@@ -40,3 +42,9 @@ This project is a web application developed using Django, REST framework, HTML, 
 2. Sign up or log in to access the employee management features.
 3. Upload, store, retrieve, and edit employee details as needed.
 4. Explore the REST API endpoints for programmatic access to data.
+
+## Contact Information
+
+For more information or inquiries, please contact
+- **Email:** [Abhishek Reddy Kavali](mailto:abhishekreddy.k3@gmail.com)
+- **LinkedIn:** [Abhishek Reddy Kavali](https://www.linkedin.com/in/abhishekreddykavali/)
